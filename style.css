@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    text-align: center;
+    height: 400px;
+    padding-top: 30px;
+    display: grid;
+    place-self: center;
+    border-radius: 15px;
+    width: 39em;
+}
+
+.container{
+    border-color: white;
+    border: 350px solid whitesmoke;
+}
+.her h2 {
+    padding-top: 20px;
+    padding-left: 4em;
+    font-style: italic;
+}
+.her p {
+    padding-left: 6em;
+    padding-top: 20px;
+
+}
+.prepare h3 {
+    padding-top: 50px;
+    padding-left: 5.3em;
+    color: rgb(38, 24, 24);
+}
+.prepare ul {
+    padding-top: 20px;
+    padding-left: 7em;
+}
+
+.igredient h3 {
+    padding-top: 20px;
+    padding-left: 5.3em;
+    font-style: oblique;
+    color: rgb(38, 24, 24);
+}
+.igredient ul {
+    padding-top: 20px;
+    padding-left: 7em;
+}
+hr{
+    color:rgb(38, 24, 24) ;
+}
+.instruction h3 {
+    padding-top: 20px;
+    padding-left: 5.3em;
+    font-style: oblique;
+    color: rgb(38, 24, 24);
+}
+.instruction ol {
+    padding-top: 20px;
+    padding-left: 7em;
+}
+.nut h3 {
+    padding-top: 20px;
+    padding-left: 5.3em;
+    font-style: oblique;
+    color: rgb(38, 24, 24);
+}
+.nut p {
+    padding-left: 6em;
+}
+.tab{
+    width: 100%;
+    max-width: 300px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 7em;
+
+}
+.tab th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid red;
+    font-weight: bolder;
+   
+}
+.tab td{
+    padding: 8px;
+    border-bottom: 1px solid rgb(38, 24, 24) ;
+    
+}
